@@ -1,5 +1,8 @@
 package leetcode.Array;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @Author：huchenfei
  * @ClassName TwoSum
@@ -30,31 +33,31 @@ public class TwoSum {
     }
 
     // 两遍哈希
-//    public int[] twoSum(int[] nums, int target) {
-//        Map<Integer, Integer> map = new HashMap<>();
-//        for (int i = 0; i < nums.length; i++) {
-//            map.put(nums[i], i);
-//        }
-//        for (int i = 0; i < nums.length; i++) {
-//            int complement = target - nums[i];
-//            if (map.containsKey(complement) && map.get(complement) != i) {
-//                return new int[] { i, map.get(complement) };
-//            }
-//        }
-//        return null;
-//    }
+    /*public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            map.put(nums[i], i);
+        }
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement) && map.get(complement) != i) {
+                return new int[] { i, map.get(complement) };
+            }
+        }
+        return null;
+    }*/
 
     // 一遍哈希
-//    public int[] twoSum(int[] nums, int target) {
-//        Map<Integer, Integer> map = new HashMap<>();
-//        for (int i = 0; i < nums.length; i++) {
-//            int complement = target - nums[i];
-//            if (map.containsKey(complement)) {
-//                return new int[] { map.get(complement), i };
-//            }
-//            map.put(nums[i], i);
-//        }
-//    }
+/*    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) {
+                return new int[] { map.get(complement), i };
+            }
+            map.put(nums[i], i);
+        }
+    }*/
 
     public static void main(String... args) {
         leetcode.problems.TwoSum twoSum = new leetcode.problems.TwoSum();
