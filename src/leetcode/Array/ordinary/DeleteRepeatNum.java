@@ -1,4 +1,4 @@
-package leetcode.Array;
+package leetcode.Array.ordinary;
 
 /**
  * @ClassName DeleteRepeatNum
