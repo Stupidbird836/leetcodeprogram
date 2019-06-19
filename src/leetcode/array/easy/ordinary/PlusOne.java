@@ -1,4 +1,4 @@
-package leetcode.Array.ordinary;
+package leetcode.array.easy.ordinary;
 
 
 /**
