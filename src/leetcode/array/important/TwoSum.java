@@ -1,4 +1,4 @@
-package leetcode.array.easy.important;
+package leetcode.array.important;
 
 /**
  * @Author：huchenfei
