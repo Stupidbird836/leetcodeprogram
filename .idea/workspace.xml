@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/String/important/FirstUniqChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/String/important/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/ordinary/IsValidSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/String/important/MyAtoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/easy/important/Intersect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/important/Intersect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/easy/important/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/important/RotateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/easy/important/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/important/SingleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/easy/important/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/important/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/easy/ordinary/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/ordinary/ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/easy/ordinary/DeleteRepeatNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/ordinary/DeleteRepeatNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/easy/ordinary/MaxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/ordinary/MaxProfit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/easy/ordinary/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/ordinary/MoveZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/easy/ordinary/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/ordinary/PlusOne.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,17 +31,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/String/important/ReverseString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+            <state relative-caret-position="294">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/String/important/FirstUniqChar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/String/important/FirstUniqChar.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/String/important/MyAtoi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="260">
+              <caret line="65" column="48" lean-forward="true" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -96,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/String/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/leetcode/String/important/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/leetcode/String/important/FirstUniqChar.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/String/important/MyAtoi.java" />
       </list>
     </option>
   </component>
@@ -113,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,12 +150,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561034369130" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561550674375" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
@@ -174,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstUniqChar">
+  <component name="RunManager" selected="Application.MyAtoi">
     <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.String.important.FirstUniqChar" />
       <module name="leetcodeprogram" />
@@ -214,12 +213,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Array.ordinary.PlusOne" />
+    <configuration name="MyAtoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.String.important.MyAtoi" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.Array.ordinary.*" />
+          <option name="PATTERN" value="leetcode.String.important.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyAtoi" />
         <item itemvalue="Application.FirstUniqChar" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.IsValidSudoku" />
         <item itemvalue="Application.MoveZeroes" />
-        <item itemvalue="Application.PlusOne" />
       </list>
     </recent_temporary>
   </component>
@@ -274,18 +273,20 @@
       <workItem from="1560856738869" duration="4222000" />
       <workItem from="1560928444143" duration="1969000" />
       <workItem from="1560944483438" duration="2325000" />
-      <workItem from="1561029905729" duration="4095000" />
+      <workItem from="1561029905729" duration="4210000" />
+      <workItem from="1561034521281" duration="85000" />
+      <workItem from="1561548782145" duration="2485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45688000" />
+    <option name="totallyTimeSpent" value="48373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16813672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17144433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -294,8 +295,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997923" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -476,15 +477,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/String/important/ReverseString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="294">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/String/important/FirstUniqChar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="315">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/javasoft/jdk/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/String/important/MyAtoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="65" column="48" lean-forward="true" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
         </state>
       </provider>
     </entry>
