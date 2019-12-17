@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/listnode/important/ReverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/CollectionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeprogram/leetcode/problems/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeprogram/leetcode/problems/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeprogram/leetcode/sort/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeprogram/leetcode/sort/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/String/ordinary/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/String/ordinary/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/important/Intersect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/important/Intersect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/array/important/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/important/RotateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/important/SingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/important/SingleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/important/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/important/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/sort/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/sort/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/sort/SelectionSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingleNumber">
+  <component name="RunManager" selected="Application.RotateArray">
     <configuration name="CollectionsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.sort.CollectionsTest" />
       <module name="leetcodeprogram" />
@@ -102,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.String.ordinary.IsPalindrome" />
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.String.ordinary.LongestCommonPrefix" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
@@ -115,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.String.ordinary.LongestCommonPrefix" />
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.important.RotateArray" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.String.ordinary.*" />
+          <option name="PATTERN" value="leetcode.array.important.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.CollectionsTest" />
         <item itemvalue="Application.LongestCommonPrefix" />
         <item itemvalue="Application.IsAnagram" />
-        <item itemvalue="Application.IsPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +178,7 @@
       <workItem from="1564538608239" duration="2291000" />
       <workItem from="1566207762936" duration="983000" />
       <workItem from="1566889669901" duration="22000" />
-      <workItem from="1576568325237" duration="3605000" />
+      <workItem from="1576568325237" duration="7759000" />
     </task>
     <servers />
   </component>
@@ -206,16 +197,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/important/SingleNumber.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
