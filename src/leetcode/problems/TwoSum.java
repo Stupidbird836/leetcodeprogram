@@ -21,17 +21,25 @@ import java.util.Map;
  * @Version 1.0
  **/
 public class TwoSum {
-    // 暴力法
-    public int[] twoSum(int[] nums, int target) {
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] + nums[j] == target) {
-                    return new int[]{i, j};
-                }
-            }
-        }
-        return null;
+
+    public static void main(String... args) {
+        int[] nums = new int[]{2, 7, 11, 15};
+        int[] ints = twoSum(nums, 9);
+        System.out.println(ints.toString());
     }
+
+
+    // 暴力法
+//    public int[] twoSum(int[] nums, int target) {
+//        for (int i = 0; i < nums.length; i++) {
+//            for (int j = i + 1; j < nums.length; j++) {
+//                if (nums[i] + nums[j] == target) {
+//                    return new int[]{i, j};
+//                }
+//            }
+//        }
+//        return null;
+//    }
 
     // 两遍哈希
 //    public int[] twoSum(int[] nums, int target) {
@@ -48,22 +56,23 @@ public class TwoSum {
 //        return null;
 //    }
 
-    // 一遍哈希
-//    public int[] twoSum(int[] nums, int target) {
-//        Map<Integer, Integer> map = new HashMap<>();
-//        for (int i = 0; i < nums.length; i++) {
-//            int complement = target - nums[i];
-//            if (map.containsKey(complement)) {
-//                return new int[] { map.get(complement), i };
-//            }
-//            map.put(nums[i], i);
-//        }
-//    }
-
-    public static void main(String... args) {
-        TwoSum twoSum = new TwoSum();
-        int[] nums = new int[]{2, 7, 11, 15};
-        int[] ints = twoSum.twoSum(nums, 9);
-        System.out.println(ints.toString());
+    /**
+     * 一遍哈希
+     *
+     * @param nums
+     * @param target
+     * @return
+     */
+    private static int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) {
+                return new int[]{map.get(complement), i};
+            }
+            map.put(nums[i], i);
+        }
+        return null;
     }
+
 }
