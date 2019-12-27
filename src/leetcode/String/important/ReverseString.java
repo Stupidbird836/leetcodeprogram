@@ -16,7 +16,7 @@ package leetcode.String.important;
  * 示例 2：
  * 输入：["H","a","n","n","a","h"]
  * 输出：["h","a","n","n","a","H"]
- * @Date：2019/6/19 20:16
+ * @Date： 2019/6/19 20:16
  * @Version： 1.0
  **/
 public class ReverseString {

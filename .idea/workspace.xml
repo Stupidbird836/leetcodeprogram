@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/listnode/important/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/listnode/important/MergeTwoLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/String/important/FirstUniqChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/String/important/FirstUniqChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/String/important/MyAtoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/String/important/MyAtoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/String/important/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/String/important/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/TwoSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/listnode/important/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/listnode/important/ReverseList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +61,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
-  <component name="RunManager" selected="Application.FirstUniqChar">
-    <configuration name="CollectionsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sort.CollectionsTest" />
+  <component name="RunManager" selected="Application.MergeTwoLists">
+    <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.String.important.FirstUniqChar" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.sort.*" />
+          <option name="PATTERN" value="leetcode.String.important.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +75,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.String.important.FirstUniqChar" />
+    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.String.ordinary.IsPalindrome" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.String.important.*" />
+          <option name="PATTERN" value="leetcode.String.ordinary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.listnode.important.MergeTwoLists" />
+      <module name="leetcodeprogram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.listnode.important.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.listnode.important.ReverseList" />
+      <module name="leetcodeprogram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.listnode.important.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,39 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.important.RotateArray" />
-      <module name="leetcodeprogram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.array.important.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.important.SingleNumber" />
-      <module name="leetcodeprogram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.array.important.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoLists" />
+        <item itemvalue="Application.ReverseList" />
+        <item itemvalue="Application.IsPalindrome" />
         <item itemvalue="Application.FirstUniqChar" />
         <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.SingleNumber" />
-        <item itemvalue="Application.CollectionsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +188,9 @@
       <workItem from="1576568325237" duration="8737000" />
       <workItem from="1576828246481" duration="4999000" />
       <workItem from="1577263666917" duration="893000" />
-      <workItem from="1577275316707" duration="797000" />
+      <workItem from="1577275316707" duration="1048000" />
+      <workItem from="1577356708087" duration="2105000" />
+      <workItem from="1577431926846" duration="7641000" />
     </task>
     <servers />
   </component>
@@ -209,37 +211,37 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1814" height="357" key="GridCell.Tab.0.bottom" timestamp="1577276242033">
+    <state width="1814" height="357" key="GridCell.Tab.0.bottom" timestamp="1577442180494">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.0.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577276242033" />
-    <state width="1814" height="357" key="GridCell.Tab.0.center" timestamp="1577276242033">
+    <state width="1814" height="357" key="GridCell.Tab.0.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180494" />
+    <state width="1814" height="357" key="GridCell.Tab.0.center" timestamp="1577442180494">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.0.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577276242033" />
-    <state width="1814" height="357" key="GridCell.Tab.0.left" timestamp="1577276242033">
+    <state width="1814" height="357" key="GridCell.Tab.0.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180494" />
+    <state width="1814" height="357" key="GridCell.Tab.0.left" timestamp="1577442180494">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.0.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577276242033" />
-    <state width="1814" height="357" key="GridCell.Tab.0.right" timestamp="1577276242033">
+    <state width="1814" height="357" key="GridCell.Tab.0.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180494" />
+    <state width="1814" height="357" key="GridCell.Tab.0.right" timestamp="1577442180494">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.0.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577276242033" />
-    <state width="1814" height="357" key="GridCell.Tab.1.bottom" timestamp="1577276241953">
+    <state width="1814" height="357" key="GridCell.Tab.0.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180494" />
+    <state width="1814" height="357" key="GridCell.Tab.1.bottom" timestamp="1577442180495">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.1.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577276241953" />
-    <state width="1814" height="357" key="GridCell.Tab.1.center" timestamp="1577276241953">
+    <state width="1814" height="357" key="GridCell.Tab.1.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180495" />
+    <state width="1814" height="357" key="GridCell.Tab.1.center" timestamp="1577442180495">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.1.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577276241953" />
-    <state width="1814" height="357" key="GridCell.Tab.1.left" timestamp="1577276241953">
+    <state width="1814" height="357" key="GridCell.Tab.1.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180495" />
+    <state width="1814" height="357" key="GridCell.Tab.1.left" timestamp="1577442180495">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.1.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577276241953" />
-    <state width="1814" height="357" key="GridCell.Tab.1.right" timestamp="1577276241953">
+    <state width="1814" height="357" key="GridCell.Tab.1.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180495" />
+    <state width="1814" height="357" key="GridCell.Tab.1.right" timestamp="1577442180495">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.1.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577276241953" />
+    <state width="1814" height="357" key="GridCell.Tab.1.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180495" />
   </component>
 </project>
