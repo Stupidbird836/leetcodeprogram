@@ -1,5 +1,8 @@
 package leetcode.listnode.important;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author huchenfei
  * @version 1.0
@@ -23,8 +26,18 @@ public class MergeTwoLists {
 
         ListNode listNode2 = mergeTwoLists(listNode, listNode1);
         listNode2.print();
+//        test();
     }
 
+    /**
+     * 首先定义一个前置节点 prehead 和指针 prev
+     * 对链表 l1 当前的节点和链表 l2 当前的节点进行比较,根据比较结果将指针 prev 指向对应的链表
+     * 将 prev 的指针指向下一个链表并将当前链表的指针指向下一个
+     *
+     * @param l1 链表1
+     * @param l2 链表2
+     * @return ListNode
+     */
     private static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode prehead = new ListNode(-1);
         ListNode prev = prehead;
@@ -36,9 +49,28 @@ public class MergeTwoLists {
                 prev.next = l2;
                 l2 = l2.next;
             }
+            prehead.print();
+            System.out.println("");
             prev = prev.next;
         }
         prev.next = l1 == null ? l2 : l1;
         return prehead.next;
     }
+//
+//    private static void test(){
+//        List<String> a = new ArrayList<>();
+//        a.add("a");
+//        List<String> b = a;
+//        System.out.println(a == b);
+//        while (true) {
+//            for (int i = 0; i < 2; i++) {
+//                System.out.println(a == b);
+//                b.add(i + "");
+//            }
+//            System.out.println(a.hashCode());
+//            System.out.println(b.hashCode());
+//            b = b.subList(1, 2);
+//            System.out.println(a == b);
+//        }
+//    }
 }

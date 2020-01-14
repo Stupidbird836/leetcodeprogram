@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/listnode/important/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/listnode/important/MergeTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/TestRedisSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/String/important/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/String/important/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/listnode/important/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/listnode/important/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/String/important/StrStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/String/important/StrStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/String/ordinary/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/String/ordinary/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/important/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/important/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/ordinary/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/ordinary/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/ordinary/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/ordinary/MoveZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/listnode/important/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/listnode/important/MergeTwoLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="235" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -33,11 +39,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Sort</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,33 +62,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
-  <component name="RunManager" selected="Application.MergeTwoLists">
-    <configuration name="FirstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.String.important.FirstUniqChar" />
-      <module name="leetcodeprogram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.String.important.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.String.ordinary.IsPalindrome" />
-      <module name="leetcodeprogram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.String.ordinary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TwoSum">
     <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.listnode.important.MergeTwoLists" />
       <module name="leetcodeprogram" />
@@ -114,12 +89,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.String.important.ReverseString" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Test" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.String.important.*" />
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRedisSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.TestRedisSet" />
+      <module name="leetcodeprogram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.important.TwoSum" />
+      <module name="leetcodeprogram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.array.important.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.TestRedisSet" />
         <item itemvalue="Application.MergeTwoLists" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ReverseList" />
-        <item itemvalue="Application.IsPalindrome" />
-        <item itemvalue="Application.FirstUniqChar" />
-        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +191,16 @@
       <workItem from="1577263666917" duration="893000" />
       <workItem from="1577275316707" duration="1048000" />
       <workItem from="1577356708087" duration="2105000" />
-      <workItem from="1577431926846" duration="7641000" />
+      <workItem from="1577431926846" duration="7807000" />
+      <workItem from="1577763297454" duration="504000" />
+      <workItem from="1577783011185" duration="823000" />
+      <workItem from="1577787982001" duration="128000" />
+      <workItem from="1577789065338" duration="153000" />
+      <workItem from="1577953078762" duration="151000" />
+      <workItem from="1577958527847" duration="9441000" />
+      <workItem from="1578303535501" duration="474000" />
+      <workItem from="1578973275118" duration="2781000" />
+      <workItem from="1578995782218" duration="4223000" />
     </task>
     <servers />
   </component>
@@ -211,37 +221,53 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1814" height="357" key="GridCell.Tab.0.bottom" timestamp="1577442180494">
+    <state width="1814" height="401" key="GridCell.Tab.0.bottom" timestamp="1579001168361">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.0.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180494" />
-    <state width="1814" height="357" key="GridCell.Tab.0.center" timestamp="1577442180494">
+    <state width="1814" height="401" key="GridCell.Tab.0.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579001168361" />
+    <state width="1814" height="401" key="GridCell.Tab.0.center" timestamp="1579001168361">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.0.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180494" />
-    <state width="1814" height="357" key="GridCell.Tab.0.left" timestamp="1577442180494">
+    <state width="1814" height="401" key="GridCell.Tab.0.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579001168361" />
+    <state width="1814" height="401" key="GridCell.Tab.0.left" timestamp="1579001168361">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.0.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180494" />
-    <state width="1814" height="357" key="GridCell.Tab.0.right" timestamp="1577442180494">
+    <state width="1814" height="401" key="GridCell.Tab.0.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579001168361" />
+    <state width="1814" height="401" key="GridCell.Tab.0.right" timestamp="1579001168361">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.0.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180494" />
-    <state width="1814" height="357" key="GridCell.Tab.1.bottom" timestamp="1577442180495">
+    <state width="1814" height="401" key="GridCell.Tab.0.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579001168361" />
+    <state width="1814" height="401" key="GridCell.Tab.1.bottom" timestamp="1579001168266">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.1.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180495" />
-    <state width="1814" height="357" key="GridCell.Tab.1.center" timestamp="1577442180495">
+    <state width="1814" height="401" key="GridCell.Tab.1.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579001168266" />
+    <state width="1814" height="401" key="GridCell.Tab.1.center" timestamp="1579001168266">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.1.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180495" />
-    <state width="1814" height="357" key="GridCell.Tab.1.left" timestamp="1577442180495">
+    <state width="1814" height="401" key="GridCell.Tab.1.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579001168266" />
+    <state width="1814" height="401" key="GridCell.Tab.1.left" timestamp="1579001168266">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.1.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180495" />
-    <state width="1814" height="357" key="GridCell.Tab.1.right" timestamp="1577442180495">
+    <state width="1814" height="401" key="GridCell.Tab.1.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579001168266" />
+    <state width="1814" height="401" key="GridCell.Tab.1.right" timestamp="1579001168266">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="357" key="GridCell.Tab.1.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1577442180495" />
+    <state width="1814" height="401" key="GridCell.Tab.1.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579001168266" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/javasoft/jdk/src.zip!/java/util/AbstractList.java</url>
+          <line>618</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcodeprogram$Test.ic" NAME="Test Coverage Results" MODIFIED="1577789112812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.*</FILTER>
+    </SUITE>
   </component>
 </project>
