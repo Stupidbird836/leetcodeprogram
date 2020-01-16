@@ -1,9 +1,10 @@
 package leetcode.String.important;
 
 /**
- * @Author： huchenfei
- * @ClassName： MyAtoi
- * @Description： 8.字符串转换整数 (atoi)
+ * @author huchenfei
+ * @version 1.0
+ * @className MyAtoi
+ * @description 8.字符串转换整数 (atoi)
  * 请你来实现一个 atoi 函数，使其能将字符串转换成整数。
  * 首先，该函数会根据需要丢弃无用的开头空格字符，直到寻找到第一个非空格的字符为止。
  * 当我们寻找到的第一个非空字符为正或者负号时，则将该符号与之后面尽可能多的连续数字组合起来，作为该整数的正负号；
@@ -35,8 +36,7 @@ package leetcode.String.important;
  * 输入: "-91283472332"  输出: -2147483648
  * 解释: 数字 "-91283472332" 超过 32 位有符号整数范围。
  * 因此返回 INT_MIN (−2^31) 。
- * @Date： 2019/6/26 19:34
- * @Version： 1.0
+ * @date 2019/6/26 19:34
  **/
 public class MyAtoi {
 

@@ -1,9 +1,10 @@
 package leetcode.String.ordinary;
 
 /**
- * @Author：huchenfei
- * @ClassName：IsPalindrome
- * @Description：给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。 <p><p/>
+ * @author huchenfei
+ * @version 1.0
+ * @className IsPalindrome
+ * @description 给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。 <p><p/>
  * 说明：本题中，我们将空字符串定义为有效的回文串。
  * <p>
  * 示例 1:
@@ -14,8 +15,7 @@ package leetcode.String.ordinary;
  * <p>
  * 输入: "race a car"
  * 输出: false
- * @Date：2019/6/27 19:57
- * @Version： 1.0
+ * @date 2019/6/27 19:57
  **/
 public class IsPalindrome {
 
@@ -25,7 +25,7 @@ public class IsPalindrome {
     }
 
     public static boolean isPalindrome(String s) {
-        if (s == null || s.length() == 0){
+        if (s == null || s.length() == 0) {
             return true;
         }
         s = s.toLowerCase();

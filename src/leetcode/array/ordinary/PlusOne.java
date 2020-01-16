@@ -2,9 +2,10 @@ package leetcode.array.ordinary;
 
 
 /**
- * @Author：huchenfei
- * @ClassName：PlusOne
- * @Description：给定一个由整数组成的非空数组所表示的非负整数，在该数的基础上加一。
+ * @author huchenfei
+ * @version 1.0
+ * @className PlusOne
+ * @description 给定一个由整数组成的非空数组所表示的非负整数，在该数的基础上加一。
  * <p>
  * 最高位数字存放在数组的首位， 数组中每个元素只存储一个数字。
  * <p>
@@ -20,8 +21,7 @@ package leetcode.array.ordinary;
  * 输入: [4,3,2,1]
  * 输出: [4,3,2,2]
  * 解释: 输入数组表示数字 4321。
- * @Date：2019/6/18 19:19
- * @Version： 1.0
+ * @date 2019/6/18 19:19
  **/
 public class PlusOne {
 

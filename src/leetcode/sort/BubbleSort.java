@@ -1,14 +1,14 @@
 package leetcode.sort;
 
 /**
- * @ClassName BubbleSort
- * @Description 冒泡排序
+ * @author huchenfei
+ * @version 1.0
+ * @className BubbleSort
+ * @description 冒泡排序
  * 冒泡排序时间复杂度
  * 冒泡排序的时间复杂度是O(N2)。
  * 假设被排序的数列中有N个数。遍历一趟的时间复杂度是O(N)，需要遍历多少次呢？N-1次！因此，冒泡排序的时间复杂度是O(N2)。
- * @Author huchenfei
- * @Date 2019/4/30 18:07
- * @Version 1.0
+ * @date 2019/4/30 18:07
  **/
 public class BubbleSort {
 

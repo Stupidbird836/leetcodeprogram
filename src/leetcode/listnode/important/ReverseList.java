@@ -10,7 +10,7 @@ package leetcode.listnode.important;
  * 输出: 5->4->3->2->1->NULL
  * 进阶:
  * 你可以迭代或递归地反转链表。你能否用两种方法解决这道题？
- * @date 2019/7/25 19:35
+ * @date  2019/7/25 19:35
  * @version 1.0
  **/
 public class ReverseList {

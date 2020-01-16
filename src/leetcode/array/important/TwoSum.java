@@ -1,13 +1,14 @@
 package leetcode.array.important;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * @author huchenfei
  * @version 1.0
- * @ClassName TwoSum
- * @Description 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
+ * @className TwoSum
+ * @description 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
  * <p>
  * 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。
  * <p>
@@ -17,14 +18,14 @@ import java.util.Map;
  * <p>
  * 因为 nums[0] + nums[1] = 2 + 7 = 9
  * 所以返回 [0, 1]
- * @date 2019/6/12 20:15
+ * @date  2019/6/12 20:15
  **/
 public class TwoSum {
 
     public static void main(String... args) {
         int[] nums = new int[]{2, 3, 4, 5, 6, 7, 11, 15};
         int[] ints = twoSum(nums, 9);
-        System.out.println(ints);
+        System.out.println(Arrays.toString(ints));
     }
 
     /**
@@ -81,17 +82,17 @@ public class TwoSum {
      * @param target 目标值
      * @return int[]
      */
-//    private static int[] twoSum(int[] nums, int target) {
-//        Map<Integer, Integer> map = new HashMap<>();
-//        for (int i = 0; i < nums.length; i++) {
-//            int count = target - nums[i];
-//            if (map.containsKey(count)) {
-//                return new int[]{map.get(count), i};
-//            }
-//            map.put(nums[i], i);
-//        }
-//        return null;
-//    }
+    /*private static int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int count = target - nums[i];
+            if (map.containsKey(count)) {
+                return new int[]{map.get(count), i};
+            }
+            map.put(nums[i], i);
+        }
+        return null;
+    }*/
 
     /**
      * 指针对撞法(该方法只针对已经排好序的数组,且从小到大排)

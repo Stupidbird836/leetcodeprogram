@@ -7,11 +7,11 @@ import java.util.Map;
 /**
  * 重要:
  *
- * @Author：huchenfei
- * @ClassName：SingleNumber
- * @Description： 给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
- * @Date：2019/6/12 20:17
- * @Version： 1.0
+ * @author huchenfei
+ * @version 1.0
+ * @className SingleNumber
+ * @description 给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
+ * @date  2019/6/12 20:17
  **/
 public class SingleNumber {
 

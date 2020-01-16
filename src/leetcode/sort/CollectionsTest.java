@@ -1,19 +1,17 @@
 package leetcode.sort;
 
-import javax.xml.crypto.dsig.keyinfo.RetrievalMethod;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Vector;
 
 /**
- * @Author：huchenfei
- * @ClassName：CollectionsTest
- * @Description：
- * @Date：2019/7/31 10:09
- * @Version： 1.0
+ * @author huchenfei
+ * @version 1.0
+ * @className CollectionsTest
+ * @description
+ * @date 2019/7/31 10:09
  **/
 public class CollectionsTest {
 

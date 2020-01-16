@@ -1,9 +1,10 @@
 package leetcode.String.ordinary;
 
 /**
- * @Author：huchenfei
- * @ClassName：IsAnagram
- * @Description：给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词。
+ * @author huchenfei
+ * @version 1.0
+ * @className IsAnagram
+ * @description 给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词。
  * <p>
  * 示例 1:
  * <p>
@@ -18,8 +19,7 @@ package leetcode.String.ordinary;
  * <p>
  * 进阶:
  * 如果输入字符串包含 unicode 字符怎么办？你能否调整你的解法来应对这种情况？
- * @Date：2019/7/10 20:13
- * @Version： 1.0
+ * @date 2019/7/10 20:13
  **/
 public class IsAnagram {
 

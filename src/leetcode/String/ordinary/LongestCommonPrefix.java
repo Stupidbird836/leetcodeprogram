@@ -2,9 +2,10 @@ package leetcode.String.ordinary;
 
 
 /**
- * @Author：huchenfei
- * @ClassName：LongestCommonPrefix
- * @Description：最长公共前缀 编写一个函数来查找字符串数组中的最长公共前缀。
+ * @author huchenfei
+ * @version 1.0
+ * @className LongestCommonPrefix
+ * @description 最长公共前缀 编写一个函数来查找字符串数组中的最长公共前缀。
  * <p>
  * 如果不存在公共前缀，返回空字符串 ""。
  * <p>
@@ -20,8 +21,7 @@ package leetcode.String.ordinary;
  * 说明:
  * <p>
  * 所有输入只包含小写字母 a-z 。
- * @Date：2019/7/15 19:08
- * @Version： 1.0
+ * @date 2019/7/15 19:08
  **/
 public class LongestCommonPrefix {
 
@@ -31,7 +31,7 @@ public class LongestCommonPrefix {
     }
 
     private static String longestCommonPrefix(String[] strs) {
-        if (strs ==null || strs.length <= 0) {
+        if (strs == null || strs.length <= 0) {
             return "";
         }
         String str0 = strs[0];

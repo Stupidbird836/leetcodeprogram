@@ -3,6 +3,7 @@ package leetcode.array.ordinary;
 
 /**
  * @author huchenfei
+ * @version 1.0
  * @className MoveZeroes
  * @description 给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
  * <p>
@@ -15,7 +16,6 @@ package leetcode.array.ordinary;
  * 必须在原数组上操作，不能拷贝额外的数组。
  * 尽量减少操作次数。
  * @date 2019/6/18 20:01
- * @version 1.0
  **/
 public class MoveZeroes {
     public static void main(String... args) {

@@ -3,9 +3,10 @@ package leetcode.String.important;
 import java.util.HashMap;
 
 /**
- * @Author：huchenfei
- * @ClassName：FirstUniqChar
- * @Description： 387. 字符串中的第一个唯一字符
+ * @author huchenfei
+ * @version 1.0
+ * @className FirstUniqChar
+ * @description 387. 字符串中的第一个唯一字符
  * 给定一个字符串，找到它的第一个不重复的字符，并返回它的索引。如果不存在，则返回 -1。
  * <p>
  * 案例:
@@ -15,8 +16,7 @@ import java.util.HashMap;
  * s = "loveleetcode",
  * 返回 2.
  * 注意事项：您可以假定该字符串只包含小写字母。
- * @Date：2019/6/20 20:03
- * @Version： 1.0
+ * @date 2019/6/20 20:03
  **/
 public class FirstUniqChar {
     public static void main(String... args) {

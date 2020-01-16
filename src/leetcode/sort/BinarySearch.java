@@ -2,11 +2,11 @@ package leetcode.sort;
 
 
 /**
- * @ClassName BinarySearch
- * @Description 二分查找
- * @Author huchenfei
- * @Date 2019/4/30 16:00
- * @Version 1.0
+ * @author huchenfei
+ * @version 1.0
+ * @className BinarySearch
+ * @description 二分查找
+ * @date 2019/4/30 16:00
  **/
 public class BinarySearch {
 

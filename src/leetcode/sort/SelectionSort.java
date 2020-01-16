@@ -1,17 +1,17 @@
 package leetcode.sort;
 
 /**
- * @ClassName SelectionSort
- * @Description 选择排序(Selection sort)是一种简单直观的排序算法。
+ * @author huchenfei
+ * @version 1.0
+ * @className SelectionSort
+ * @description 选择排序(Selection sort)是一种简单直观的排序算法。
  * 它的基本思想是：首先在未排序的数列中找到最小(or最大)元素，然后将其存放到数列的起始位置；
  * 接着，再从剩余未排序的元素中继续寻找最小(or最大)元素，然后放到已排序序列的末尾。以此类推，直到所有元素均排序完毕。
  * <p>
  * 选择排序时间复杂度
  * 选择排序的时间复杂度是O(N2)。
  * 假设被排序的数列中有N个数。遍历一趟的时间复杂度是O(N)，需要遍历多少次呢？N-1！因此，选择排序的时间复杂度是O(N2)。
- * @Author huchenfei
- * @Date 2019/4/30 18:19
- * @Version 1.0
+ * @date 2019/4/30 18:19
  **/
 public class SelectionSort {
 

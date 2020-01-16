@@ -1,9 +1,10 @@
 package leetcode.array.ordinary;
 
 /**
- * @Author：huchenfei
- * @ClassName：IsValidSudoku
- * @Description：判断一个 9x9 的数独是否有效。只需要根据以下规则，验证已经填入的数字是否有效即可。
+ * @author huchenfei
+ * @version 1.0
+ * @className IsValidSudoku
+ * @description 判断一个 9x9 的数独是否有效。只需要根据以下规则，验证已经填入的数字是否有效即可。
  * <p>
  * 数字 1-9 在每一行只能出现一次。
  * 数字 1-9 在每一列只能出现一次。
@@ -52,8 +53,7 @@ package leetcode.array.ordinary;
  * 只需要根据以上规则，验证已经填入的数字是否有效即可。
  * 给定数独序列只包含数字 1-9 和字符 '.' 。
  * 给定数独永远是 9x9 形式的。
- * @Date：2019/6/19 19:42
- * @Version： 1.0
+ * @date 2019/6/19 19:42
  **/
 public class IsValidSudoku {
 
