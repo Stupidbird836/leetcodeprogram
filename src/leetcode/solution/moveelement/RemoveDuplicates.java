@@ -37,12 +37,27 @@ package leetcode.solution.moveelement;
 public class RemoveDuplicates {
 
     public static void main(String... args) {
-
+        int[] nums = {2, 2, 3};
+        System.out.println(removeDuplicates(nums));
     }
 
+    /**
+     * 这个问题结合 leetcode.solution.moveelement.RemoveElement 看
+     * 其实就是将 nums[index] 看成了 val
+     * 大致思想其实都是一样的
+     *
+     * @param nums
+     * @return
+     */
     private static int removeDuplicates(int[] nums) {
-
-        return 0;
+        int index = 0;
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] != nums[index]) {
+                index++;
+                nums[index] = nums[i];
+            }
+        }
+        return index + 1;
     }
 
 }

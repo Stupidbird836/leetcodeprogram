@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/solution/moveelement/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/solution/moveelement/RemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/ordinary/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/ordinary/MoveZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/ordinary/DeleteRepeatNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/ordinary/DeleteRepeatNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/solution/moveelement/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/solution/moveelement/RemoveDuplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +63,13 @@
       <recent name="leetcode.solution" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveElement">
-    <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.listnode.important.MergeTwoLists" />
+  <component name="RunManager" selected="Application.RemoveDuplicates">
+    <configuration name="DeleteRepeatNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.ordinary.DeleteRepeatNum" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.listnode.important.*" />
+          <option name="PATTERN" value="leetcode.array.ordinary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.solution.moveelement.RemoveElement" />
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.solution.moveelement.RemoveDuplicates" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRedisSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.TestRedisSet" />
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.solution.moveelement.RemoveElement" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="leetcode.solution.moveelement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.DeleteRepeatNum" />
         <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.MoveZeroes" />
         <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.TestRedisSet" />
-        <item itemvalue="Application.MergeTwoLists" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +204,7 @@
       <workItem from="1578995782218" duration="5681000" />
       <workItem from="1579171832401" duration="1860000" />
       <workItem from="1579229466098" duration="33000" />
-      <workItem from="1579248428054" duration="4817000" />
+      <workItem from="1579248428054" duration="6226000" />
     </task>
     <servers />
   </component>
@@ -225,42 +225,46 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1814" height="401" key="GridCell.Tab.0.bottom" timestamp="1579254258845">
+    <state width="1814" height="401" key="GridCell.Tab.0.bottom" timestamp="1579255955720">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.0.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579254258845" />
-    <state width="1814" height="401" key="GridCell.Tab.0.center" timestamp="1579254258845">
+    <state width="1814" height="401" key="GridCell.Tab.0.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579255955720" />
+    <state width="1814" height="401" key="GridCell.Tab.0.center" timestamp="1579255955719">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.0.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579254258845" />
-    <state width="1814" height="401" key="GridCell.Tab.0.left" timestamp="1579254258845">
+    <state width="1814" height="401" key="GridCell.Tab.0.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579255955719" />
+    <state width="1814" height="401" key="GridCell.Tab.0.left" timestamp="1579255955719">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.0.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579254258845" />
-    <state width="1814" height="401" key="GridCell.Tab.0.right" timestamp="1579254258845">
+    <state width="1814" height="401" key="GridCell.Tab.0.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579255955719" />
+    <state width="1814" height="401" key="GridCell.Tab.0.right" timestamp="1579255955720">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.0.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579254258845" />
-    <state width="1814" height="401" key="GridCell.Tab.1.bottom" timestamp="1579254258768">
+    <state width="1814" height="401" key="GridCell.Tab.0.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579255955720" />
+    <state width="1814" height="401" key="GridCell.Tab.1.bottom" timestamp="1579255955721">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.1.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579254258768" />
-    <state width="1814" height="401" key="GridCell.Tab.1.center" timestamp="1579254258768">
+    <state width="1814" height="401" key="GridCell.Tab.1.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579255955721" />
+    <state width="1814" height="401" key="GridCell.Tab.1.center" timestamp="1579255955720">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.1.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579254258768" />
-    <state width="1814" height="401" key="GridCell.Tab.1.left" timestamp="1579254258768">
+    <state width="1814" height="401" key="GridCell.Tab.1.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579255955720" />
+    <state width="1814" height="401" key="GridCell.Tab.1.left" timestamp="1579255955720">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.1.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579254258768" />
-    <state width="1814" height="401" key="GridCell.Tab.1.right" timestamp="1579254258768">
+    <state width="1814" height="401" key="GridCell.Tab.1.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579255955720" />
+    <state width="1814" height="401" key="GridCell.Tab.1.right" timestamp="1579255955720">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.1.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579254258768" />
+    <state width="1814" height="401" key="GridCell.Tab.1.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579255955720" />
     <state x="667" y="271" width="786" height="608" key="find.popup" timestamp="1579173252783">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="667" y="271" width="786" height="608" key="find.popup/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579173252783" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1579254809787">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579254809787" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
