@@ -1,4 +1,4 @@
-package leetcode.array.ordinary;
+package leetcode.solution.moveelement;
 
 
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.Arrays;
 /**
  * @author huchenfei
  * @version 1.0
- * @className MoveZeroes
+ * @className 283.MoveZeroes
  * @description 给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
  * <p>
  * 示例:
