@@ -1,4 +1,4 @@
-package leetcode.solution.moveelement;
+package solution.moveelement;
 
 /**
  * @author huchenfei

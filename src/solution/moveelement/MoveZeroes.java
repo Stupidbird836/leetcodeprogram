@@ -1,4 +1,4 @@
-package leetcode.solution.moveelement;
+package solution.moveelement;
 
 
 import java.util.Arrays;
@@ -36,7 +36,7 @@ public class MoveZeroes {
      * @param nums 数组
      * @return int[]
      */
-    public static int[] moveZeroes(int[] nums) {
+    private static int[] moveZeroes(int[] nums) {
         int index = 0;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != 0) {
@@ -60,7 +60,7 @@ public class MoveZeroes {
      * @param nums 数组
      * @return int[]
      */
-    public static int[] moveZeroes1(int[] nums) {
+    private static int[] moveZeroes1(int[] nums) {
         int index = 0;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != 0) {

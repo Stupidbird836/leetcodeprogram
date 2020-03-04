@@ -24,10 +24,10 @@
 
 >
 
-> leetcode.solution
+> solution
 
 该包下总结了常用的一些算法思想以及对应的题目
 
-- leetcode.solution.moveelement.MoveZeroes 移动零
-- leetcode.solution.moveelement.RemoveElement 移除元素
+- solution.moveelement.MoveZeroes 移动零
+- solution.moveelement.RemoveElement 移除元素
 
