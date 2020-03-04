@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/test/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/test/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/test/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/test/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/test/ThreadLocalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solution/moveelement/MergeSortedArray88.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solution/moveelement/SortColors75.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/solution/moveelement/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/moveelement/MoveZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/solution/moveelement/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/moveelement/RemoveDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/solution/moveelement/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/moveelement/RemoveElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/sort/CollectionsTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +208,7 @@
       <workItem from="1582966152542" duration="182000" />
       <workItem from="1583054657907" duration="1372000" />
       <workItem from="1583310856682" duration="584000" />
-      <workItem from="1583311636590" duration="10219000" />
+      <workItem from="1583311636590" duration="10535000" />
     </task>
     <servers />
   </component>

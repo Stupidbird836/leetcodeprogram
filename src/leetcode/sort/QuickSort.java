@@ -8,4 +8,5 @@ package leetcode.sort;
  * @className QuickSort
  */
 public class QuickSort {
+
 }
