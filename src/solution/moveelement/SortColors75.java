@@ -1,5 +1,7 @@
 package solution.moveelement;
 
+import com.sun.org.apache.bcel.internal.generic.SWAP;
+
 import java.util.Arrays;
 
 /**
@@ -31,7 +33,7 @@ import java.util.Arrays;
 public class SortColors75 {
 
     public static void main(String[] args) {
-        int[] nums = {0};
+        int[] nums = {0, 2, 1};
         sortColors1(nums);
         System.out.println(Arrays.toString(nums));
     }
@@ -61,24 +63,30 @@ public class SortColors75 {
         }
     }
 
+    /**
+     * 三路快排，指定 base 数
+     * 因为只有三个数，所以选择一个中间数
+     * 剩下的数字就是大的向右，小的向左，且不用排序
+     *
+     * @param nums 无序数组
+     */
     private static void sortColors1(int[] nums) {
-        int zeroPoint = -1;
-        int twoPoint = nums.length;
+        int zeroPoint = 0;
+        int twoPoint = nums.length - 1;
         for (int i = 0; i < twoPoint; ) {
             if (nums[i] == 1) {
                 i++;
             } else if (nums[i] == 2) {
-                int temp = nums[i];
-                nums[i] = nums[twoPoint - 1];
-                nums[twoPoint - 1] = temp;
-                --twoPoint;
+                swap(nums, i, twoPoint);
             } else {
-                int temp = nums[i];
-                nums[i] = nums[zeroPoint + 1];
-                nums[zeroPoint + 1] = temp;
-                ++zeroPoint;
-                i++;
+                swap(nums, i++, zeroPoint++);
             }
         }
+    }
+
+    private static void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 }

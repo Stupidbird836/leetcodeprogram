@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="" />
+    <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/sort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solution/moveelement/SortColors75.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/moveelement/SortColors75.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteRepeatNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.ordinary.DeleteRepeatNum" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.sort.QuickSort" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.array.ordinary.*" />
+          <option name="PATTERN" value="leetcode.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,10 +148,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SortColors75" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.D" />
         <item itemvalue="Application.C" />
         <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.DeleteRepeatNum" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +214,10 @@
       <workItem from="1582966152542" duration="182000" />
       <workItem from="1583054657907" duration="1372000" />
       <workItem from="1583310856682" duration="584000" />
-      <workItem from="1583311636590" duration="10535000" />
+      <workItem from="1583311636590" duration="10582000" />
+      <workItem from="1583404798461" duration="2620000" />
+      <workItem from="1583461334842" duration="5497000" />
+      <workItem from="1583746887231" duration="5276000" />
     </task>
     <servers />
   </component>
