@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/sort/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solution/moveelement/SortColors75.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/moveelement/SortColors75.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/String/important/StrStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/String/important/StrStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/important/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/important/RotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solution/moveelement/MergeSortedArray88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/moveelement/MergeSortedArray88.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortColors75">
+  <component name="RunManager" selected="Application.MergeSortedArray88">
     <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.test.C" />
       <module name="leetcodeprogram" />
@@ -106,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sort.QuickSort" />
+    <configuration name="MergeSortedArray88" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.moveelement.MergeSortedArray88" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.sort.*" />
+          <option name="PATTERN" value="solution.moveelement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.moveelement.RemoveDuplicates" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.sort.QuickSort" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.moveelement.*" />
+          <option name="PATTERN" value="leetcode.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortedArray88" />
         <item itemvalue="Application.SortColors75" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.D" />
         <item itemvalue="Application.C" />
-        <item itemvalue="Application.RemoveDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +216,8 @@
       <workItem from="1583311636590" duration="10582000" />
       <workItem from="1583404798461" duration="2620000" />
       <workItem from="1583461334842" duration="5497000" />
-      <workItem from="1583746887231" duration="5276000" />
+      <workItem from="1583746887231" duration="7526000" />
+      <workItem from="1583833711703" duration="6979000" />
     </task>
     <servers />
   </component>

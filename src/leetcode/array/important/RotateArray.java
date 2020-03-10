@@ -28,7 +28,7 @@ package leetcode.array.important;
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/rotate-array
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
- * @date  2019/6/13 19:39
+ * @date 2019/6/13 19:39
  **/
 public class RotateArray {
 
@@ -45,9 +45,9 @@ public class RotateArray {
      * 4, 5, 6, 1, 2, 3 第三次
      * 3, 4, 5, 6, 1, 2 最后完成
      *
-     * @param nums
-     * @param k
-     * @return
+     * @param nums 数组
+     * @param k    翻转几个数字
+     * @return int[]
      */
     private static int[] rotate(int[] nums, int k) {
         int n = nums.length;
@@ -64,9 +64,9 @@ public class RotateArray {
     /**
      * 将数组反转K次
      *
-     * @param nums
-     * @param k
-     * @return
+     * @param nums 数组
+     * @param k    翻转几个数字
+     * @return int[]
      */
     private static int[] rotate1(int[] nums, int k) {
         int temp, previous;
@@ -87,9 +87,9 @@ public class RotateArray {
      * 反转前 k 个数字后          : 5 6 7 4 3 2 1
      * 反转后 n-k 个数字后        : 5 6 7 1 2 3 4 --> 结果
      *
-     * @param nums
-     * @param k
-     * @return
+     * @param nums 数组
+     * @param k    翻转几个数字
+     * @return int[]
      */
     private static int[] rotate2(int[] nums, int k) {
         int n = nums.length;
