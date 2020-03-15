@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/solution/one_question_per_day/MajorityElement169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/q_per_day/LengthOfLIS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeprogram/leetcode/sort/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeprogram/leetcode/sort/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeprogram/leetcode/sort/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solution/one_question_per_day/MajorityElement169.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/q_per_day/MajorityElement169.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,13 +80,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MajorityElement169">
-    <configuration name="D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.test.D" />
+  <component name="RunManager" selected="Application.LengthOfLIS">
+    <configuration name="LengthOfLIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.q_per_day.LengthOfLIS" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.test.*" />
+          <option name="PATTERN" value="solution.q_per_day.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,11 +95,11 @@
       </method>
     </configuration>
     <configuration name="MajorityElement169" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.one_question_per_day.MajorityElement169" />
+      <option name="MAIN_CLASS_NAME" value="solution.q_per_day.MajorityElement169" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.one_question_per_day.*" />
+          <option name="PATTERN" value="solution.q_per_day.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +121,11 @@
       </method>
     </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.sort.QuickSort" />
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.sort.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLIS" />
         <item itemvalue="Application.MajorityElement169" />
         <item itemvalue="Application.MergeSortedArray88" />
         <item itemvalue="Application.SortColors75" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.D" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +221,8 @@
       <workItem from="1583746887231" duration="7526000" />
       <workItem from="1583833711703" duration="7603000" />
       <workItem from="1584085496266" duration="1996000" />
+      <workItem from="1584095479843" duration="701000" />
+      <workItem from="1584104920221" duration="12256000" />
     </task>
     <servers />
   </component>

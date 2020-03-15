@@ -1,4 +1,4 @@
-package solution.one_question_per_day;
+package solution.q_per_day;
 
 import java.util.HashMap;
 import java.util.Map;
