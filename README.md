@@ -22,7 +22,9 @@
 - leetcode.array.ordinary.MoveZeroes
 - leetcode.array.ordinary.PlusOne
 
->
+> sort
+
+该包下面总结了常用的排序算法
 
 > solution
 
