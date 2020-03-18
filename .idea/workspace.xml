@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/solution/q_per_day/CountCharacters1160.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/q_per_day/IsRectangleOverlap836.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountCharacters1160">
+  <component name="RunManager" selected="Application.IsRectangleOverlap836">
     <configuration name="CompressString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.q_per_day.CompressString" />
       <module name="leetcodeprogram" />
@@ -116,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLIS300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.q_per_day.LengthOfLIS300" />
+    <configuration name="IsRectangleOverlap836" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.q_per_day.IsRectangleOverlap836" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsRectangleOverlap836" />
         <item itemvalue="Application.CountCharacters1160" />
         <item itemvalue="Application.CompressString" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.LengthOfLIS300" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +221,8 @@
       <workItem from="1584104920221" duration="16709000" />
       <workItem from="1584327351274" duration="10962000" />
       <workItem from="1584349288933" duration="2368000" />
-      <workItem from="1584409415522" duration="2818000" />
+      <workItem from="1584409415522" duration="4498000" />
+      <workItem from="1584500315119" duration="1042000" />
     </task>
     <servers />
   </component>
