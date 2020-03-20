@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/solution/q_per_day/LongestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solution/topk/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/q_per_day/GetLeastNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,22 +76,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindrome">
-    <configuration name="CompressString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.q_per_day.CompressString" />
-      <module name="leetcodeprogram" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solution.q_per_day.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountCharacters1160" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.q_per_day.CountCharacters1160" />
+  <component name="RunManager" selected="Application.GetLeastNumbers">
+    <configuration name="GetLeastNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.q_per_day.GetLeastNumbers" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
@@ -130,6 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
+      <module name="leetcodeprogram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solution.topk.Test" />
       <module name="leetcodeprogram" />
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetLeastNumbers" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.LongestPalindrome" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.IsRectangleOverlap836" />
-        <item itemvalue="Application.CountCharacters1160" />
-        <item itemvalue="Application.CompressString" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +226,8 @@
       <workItem from="1584535251219" duration="1098000" />
       <workItem from="1584587415960" duration="985000" />
       <workItem from="1584604394929" duration="72000" />
-      <workItem from="1584605064411" duration="801000" />
+      <workItem from="1584605064411" duration="2169000" />
+      <workItem from="1584694941169" duration="2582000" />
     </task>
     <servers />
   </component>
