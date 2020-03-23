@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/solution/q_per_day/CanMeasureWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/q_per_day/MinIncrementForUnique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -227,7 +227,8 @@
       <workItem from="1584587415960" duration="985000" />
       <workItem from="1584604394929" duration="72000" />
       <workItem from="1584605064411" duration="2169000" />
-      <workItem from="1584694941169" duration="7520000" />
+      <workItem from="1584694941169" duration="7699000" />
+      <workItem from="1584868333366" duration="4778000" />
     </task>
     <servers />
   </component>
