@@ -19,7 +19,7 @@ import java.util.Arrays;
  * 尽量减少操作次数。
  * @date 2019/6/18 20:01
  **/
-public class MoveZeroes {
+public class MoveZeroes283 {
 
     public static void main(String... args) {
         int[] nums = new int[]{0, 1, 0, 3, 12};
