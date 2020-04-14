@@ -54,7 +54,13 @@
 - solution.moveelement.SortColors75 颜色排序
 
 > twopoint 双索引技术
+- solution.twopoint.FindAnagrams438
+- solution.twopoint.MinWindow76
 - solution.twopoint.MinSubArrayLen209 长度最小的子数组
+- solution.twopoint.LengthOfLongestSubstring3 无重复字符的最长子串
+
+> search 查找类问题
+
 
 > q_per_day 每日一练
 - solution.q_per_day.CanMeasureWater

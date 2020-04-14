@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/solution/twopoint/LengthOfLongestSubstring3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solution/twopoint/MinSubArrayLen209.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Big.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/search/Intersect350.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/search/Intersection349.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/twopoint/FindAnagrams438.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/twopoint/MinWindow76.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solution/moveelement/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/moveelement/MoveZeroes283.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solution/moveelement/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/moveelement/RemoveDuplicates26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solution/moveelement/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/moveelement/RemoveElement27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solution/moveelement/SortColors75.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/moveelement/SortColors75.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLongestSubstring3">
+  <component name="RunManager" selected="Application.Intersect350">
     <configuration name="Big" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Big" />
       <module name="leetcodeprogram" />
@@ -97,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CanMeasureWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.q_per_day.CanMeasureWater" />
+    <configuration name="Intersect350" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.search.Intersect350" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.q_per_day.*" />
+          <option name="PATTERN" value="solution.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetLeastNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.q_per_day.GetLeastNumbers" />
+    <configuration name="Intersection349" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.search.Intersection349" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.q_per_day.*" />
+          <option name="PATTERN" value="solution.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Intersect350" />
+        <item itemvalue="Application.Intersection349" />
         <item itemvalue="Application.LengthOfLongestSubstring3" />
         <item itemvalue="Application.MinSubArrayLen209" />
         <item itemvalue="Application.Big" />
-        <item itemvalue="Application.CanMeasureWater" />
-        <item itemvalue="Application.GetLeastNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +239,8 @@
       <workItem from="1586258618470" duration="2000" />
       <workItem from="1586682453878" duration="229000" />
       <workItem from="1586698138766" duration="658000" />
-      <workItem from="1586752652623" duration="7307000" />
+      <workItem from="1586752652623" duration="7906000" />
+      <workItem from="1586856314334" duration="2508000" />
     </task>
     <servers />
   </component>
