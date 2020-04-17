@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/solution/search/Intersect350.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solution/search/Intersection349.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solution/twopoint/FindAnagrams438.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solution/twopoint/MinWindow76.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/search/IsAnagram242.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/search/IsHappy202.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/search/WordPattern290.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/String/ordinary/IsAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/String/ordinary/IsAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Big.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Big.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +65,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="solution.search" />
       <recent name="leetcode.solution" />
     </key>
   </component>
@@ -80,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Intersect350">
+  <component name="RunManager" selected="Application.WordPattern290">
     <configuration name="Big" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Big" />
       <module name="leetcodeprogram" />
@@ -120,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLongestSubstring3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.twopoint.LengthOfLongestSubstring3" />
+    <configuration name="IsHappy202" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.search.IsHappy202" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.twopoint.*" />
+          <option name="PATTERN" value="solution.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSubArrayLen209" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.twopoint.MinSubArrayLen209" />
+    <configuration name="WordPattern290" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.search.WordPattern290" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.twopoint.*" />
+          <option name="PATTERN" value="solution.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordPattern290" />
+        <item itemvalue="Application.IsHappy202" />
+        <item itemvalue="Application.Big" />
         <item itemvalue="Application.Intersect350" />
         <item itemvalue="Application.Intersection349" />
-        <item itemvalue="Application.LengthOfLongestSubstring3" />
-        <item itemvalue="Application.MinSubArrayLen209" />
-        <item itemvalue="Application.Big" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +241,9 @@
       <workItem from="1586682453878" duration="229000" />
       <workItem from="1586698138766" duration="658000" />
       <workItem from="1586752652623" duration="7906000" />
-      <workItem from="1586856314334" duration="2508000" />
+      <workItem from="1586856314334" duration="3122000" />
+      <workItem from="1586940195755" duration="137000" />
+      <workItem from="1587109583359" duration="8891000" />
     </task>
     <servers />
   </component>

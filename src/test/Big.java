@@ -1,7 +1,5 @@
 package test;
 
-import solution.topk.Test;
-
 import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
@@ -16,6 +14,11 @@ import java.util.Map;
 public class Big {
 
     public static void main(String[] args) {
+        String a = "";
+        for (String s : a.split(",")) {
+            System.out.println(s);
+            System.exit(-1);
+        }
         Big big = new Big();
         Map<String, Object> paramMap = new HashMap<>();
         BigDecimal planSaleAmount = BigDecimal.ZERO;
