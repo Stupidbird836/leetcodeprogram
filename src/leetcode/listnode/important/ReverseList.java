@@ -2,6 +2,7 @@ package leetcode.listnode.important;
 
 /**
  * @author huchenfei
+ * @version 1.0
  * @className ReverseList
  * @description 反转一个单链表。
  * <p>
@@ -10,8 +11,7 @@ package leetcode.listnode.important;
  * 输出: 5->4->3->2->1->NULL
  * 进阶:
  * 你可以迭代或递归地反转链表。你能否用两种方法解决这道题？
- * @date  2019/7/25 19:35
- * @version 1.0
+ * @date 2019/7/25 19:35
  **/
 public class ReverseList {
 
@@ -42,8 +42,8 @@ public class ReverseList {
      * 将当前链表赋值给 prev, 此时 prev就为 1-->null
      * 然后再将之前截取的下游链表 next 给到 curr ,此时 curr 为 [3,4,5]
      *
-     * @param head
-     * @return
+     * @param head 链表头节点
+     * @return ListNode
      */
     private static ListNode reverseList(ListNode head) {
         ListNode prev = null;
@@ -53,24 +53,7 @@ public class ReverseList {
             curr.next = prev;
             prev = curr;
             curr = next;
-            System.out.println("");
-            prev.print();
         }
         return prev;
     }
-
-    // 简洁版
-//    private static ListNode reverseList(ListNode head) {
-//        ListNode prev = null;
-//        ListNode curr = head;
-//        while (curr != null) {
-//            ListNode next = curr.next;
-//            curr.next = prev;
-//            prev = curr;
-//            curr = next;
-//        }
-//        return prev;
-//    }
-
-
 }

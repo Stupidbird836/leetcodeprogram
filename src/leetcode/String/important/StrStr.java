@@ -31,7 +31,7 @@ public class StrStr {
         System.out.println(strStr(haystack, needle));
     }
 
-    public static int strStr(String haystack, String needle) {
+    private static int strStr(String haystack, String needle) {
         int length = haystack.length();
         int length1 = needle.length();
         if (length < length1) {

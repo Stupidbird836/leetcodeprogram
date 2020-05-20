@@ -1,4 +1,4 @@
-package leetcode.solution.moveelement;
+package solution.moveelement;
 
 /**
  * @author huchenfei
@@ -34,7 +34,7 @@ package leetcode.solution.moveelement;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  * @date 2020/1/17 17:49
  **/
-public class RemoveDuplicates {
+public class RemoveDuplicates26 {
 
     public static void main(String... args) {
         int[] nums = {2, 2, 3};
@@ -42,7 +42,7 @@ public class RemoveDuplicates {
     }
 
     /**
-     * 这个问题结合 leetcode.solution.moveelement.RemoveElement 看
+     * 这个问题结合 solution.moveelement.RemoveElement 看
      * 其实就是将 nums[index] 看成了 val
      * 大致思想其实都是一样的
      *

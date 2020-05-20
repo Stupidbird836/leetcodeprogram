@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/leetcode/solution/moveelement/RemoveDuplicatesII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/search/IsAnagram242.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/search/IsHappy202.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution/search/WordPattern290.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/String/ordinary/IsAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/String/ordinary/IsAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Big.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Big.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,22 +59,36 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564540716668" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fragmentary/jy-pay/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="solution.search" />
       <recent name="leetcode.solution" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicates">
-    <configuration name="DeleteRepeatNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.ordinary.DeleteRepeatNum" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.WordPattern290">
+    <configuration name="Big" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Big" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.array.ordinary.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.ordinary.MoveZeroes" />
+    <configuration name="Intersect350" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.search.Intersect350" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.array.ordinary.*" />
+          <option name="PATTERN" value="solution.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.solution.moveelement.RemoveDuplicates" />
+    <configuration name="Intersection349" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.search.Intersection349" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.solution.moveelement.*" />
+          <option name="PATTERN" value="solution.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.solution.moveelement.RemoveElement" />
+    <configuration name="IsHappy202" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.search.IsHappy202" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.solution.moveelement.*" />
+          <option name="PATTERN" value="solution.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.important.TwoSum" />
+    <configuration name="WordPattern290" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.search.WordPattern290" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.array.important.*" />
+          <option name="PATTERN" value="solution.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,25 +150,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.DeleteRepeatNum" />
-        <item itemvalue="Application.RemoveElement" />
-        <item itemvalue="Application.MoveZeroes" />
-        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.WordPattern290" />
+        <item itemvalue="Application.IsHappy202" />
+        <item itemvalue="Application.Big" />
+        <item itemvalue="Application.Intersect350" />
+        <item itemvalue="Application.Intersection349" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -202,7 +211,44 @@
       <workItem from="1578995782218" duration="5681000" />
       <workItem from="1579171832401" duration="1860000" />
       <workItem from="1579229466098" duration="33000" />
+<<<<<<< HEAD
       <workItem from="1579248428054" duration="10950000" />
+=======
+      <workItem from="1579248428054" duration="6226000" />
+      <workItem from="1582878846360" duration="29000" />
+      <workItem from="1582910057930" duration="1783000" />
+      <workItem from="1582966152542" duration="182000" />
+      <workItem from="1583054657907" duration="1372000" />
+      <workItem from="1583310856682" duration="584000" />
+      <workItem from="1583311636590" duration="10582000" />
+      <workItem from="1583404798461" duration="2620000" />
+      <workItem from="1583461334842" duration="5497000" />
+      <workItem from="1583746887231" duration="7526000" />
+      <workItem from="1583833711703" duration="7603000" />
+      <workItem from="1584085496266" duration="1996000" />
+      <workItem from="1584095479843" duration="701000" />
+      <workItem from="1584104920221" duration="16709000" />
+      <workItem from="1584327351274" duration="10962000" />
+      <workItem from="1584349288933" duration="2368000" />
+      <workItem from="1584409415522" duration="4498000" />
+      <workItem from="1584500315119" duration="1338000" />
+      <workItem from="1584535251219" duration="1098000" />
+      <workItem from="1584587415960" duration="985000" />
+      <workItem from="1584604394929" duration="72000" />
+      <workItem from="1584605064411" duration="2169000" />
+      <workItem from="1584694941169" duration="7699000" />
+      <workItem from="1584868333366" duration="4851000" />
+      <workItem from="1584956972154" duration="364000" />
+      <workItem from="1585303751967" duration="1709000" />
+      <workItem from="1585381434769" duration="185000" />
+      <workItem from="1586258618470" duration="2000" />
+      <workItem from="1586682453878" duration="229000" />
+      <workItem from="1586698138766" duration="658000" />
+      <workItem from="1586752652623" duration="7906000" />
+      <workItem from="1586856314334" duration="3122000" />
+      <workItem from="1586940195755" duration="137000" />
+      <workItem from="1587109583359" duration="8891000" />
+>>>>>>> 43fcbde7da82ec015ccd8fcc4196c5d08b53df68
     </task>
     <servers />
   </component>

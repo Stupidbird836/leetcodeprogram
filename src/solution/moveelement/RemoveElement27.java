@@ -1,4 +1,4 @@
-package leetcode.solution.moveelement;
+package solution.moveelement;
 
 /**
  * @author huchenfei
@@ -36,7 +36,7 @@ package leetcode.solution.moveelement;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  * @date 2020/1/17 17:34
  **/
-public class RemoveElement {
+public class RemoveElement27 {
 
     public static void main(String... args) {
         int[] nums = {3, 2, 2, 3};
