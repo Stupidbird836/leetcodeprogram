@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28fec746-0437-48e2-91b1-acafe49c7c27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/solution/moveelement/RemoveDuplicatesII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solution/search/IsAnagram242.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solution/search/IsHappy202.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solution/search/WordPattern290.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/search/BreadthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/search/DepthFirstSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/String/ordinary/IsAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/String/ordinary/IsAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Big.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Big.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/solution/moveelement/RemoveDuplicatesII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/search/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Big.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/C.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/D.java" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,19 +73,7 @@
       <recent name="leetcode.solution" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.WordPattern290">
+  <component name="RunManager" selected="Application.DepthFirstSearch">
     <configuration name="Big" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Big" />
       <module name="leetcodeprogram" />
@@ -96,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Intersect350" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.search.Intersect350" />
+    <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.BreadthFirstSearch" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.search.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Intersection349" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.search.Intersection349" />
+    <configuration name="DepthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.DepthFirstSearch" />
       <module name="leetcodeprogram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solution.search.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,13 +141,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DepthFirstSearch" />
+        <item itemvalue="Application.BreadthFirstSearch" />
         <item itemvalue="Application.WordPattern290" />
         <item itemvalue="Application.IsHappy202" />
         <item itemvalue="Application.Big" />
-        <item itemvalue="Application.Intersect350" />
-        <item itemvalue="Application.Intersection349" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -211,9 +214,7 @@
       <workItem from="1578995782218" duration="5681000" />
       <workItem from="1579171832401" duration="1860000" />
       <workItem from="1579229466098" duration="33000" />
-<<<<<<< HEAD
       <workItem from="1579248428054" duration="10950000" />
-=======
       <workItem from="1579248428054" duration="6226000" />
       <workItem from="1582878846360" duration="29000" />
       <workItem from="1582910057930" duration="1783000" />
@@ -248,7 +249,7 @@
       <workItem from="1586856314334" duration="3122000" />
       <workItem from="1586940195755" duration="137000" />
       <workItem from="1587109583359" duration="8891000" />
->>>>>>> 43fcbde7da82ec015ccd8fcc4196c5d08b53df68
+      <workItem from="1591087475874" duration="4783000" />
     </task>
     <servers />
   </component>
@@ -269,50 +270,38 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1814" height="401" key="GridCell.Tab.0.bottom" timestamp="1579401443107">
+    <state width="1814" height="401" key="GridCell.Tab.0.bottom" timestamp="1591098048111">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.0.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579401443107" />
-    <state width="1814" height="401" key="GridCell.Tab.0.center" timestamp="1579401443107">
+    <state width="1814" height="401" key="GridCell.Tab.0.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1591098048111" />
+    <state width="1814" height="401" key="GridCell.Tab.0.center" timestamp="1591098048111">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.0.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579401443107" />
-    <state width="1814" height="401" key="GridCell.Tab.0.left" timestamp="1579401443106">
+    <state width="1814" height="401" key="GridCell.Tab.0.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1591098048111" />
+    <state width="1814" height="401" key="GridCell.Tab.0.left" timestamp="1591098048110">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.0.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579401443106" />
-    <state width="1814" height="401" key="GridCell.Tab.0.right" timestamp="1579401443107">
+    <state width="1814" height="401" key="GridCell.Tab.0.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1591098048110" />
+    <state width="1814" height="401" key="GridCell.Tab.0.right" timestamp="1591098048111">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.0.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579401443107" />
-    <state width="1814" height="401" key="GridCell.Tab.1.bottom" timestamp="1579401443108">
+    <state width="1814" height="401" key="GridCell.Tab.0.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1591098048111" />
+    <state width="1814" height="401" key="GridCell.Tab.1.bottom" timestamp="1591098048112">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.1.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579401443108" />
-    <state width="1814" height="401" key="GridCell.Tab.1.center" timestamp="1579401443107">
+    <state width="1814" height="401" key="GridCell.Tab.1.bottom/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1591098048112" />
+    <state width="1814" height="401" key="GridCell.Tab.1.center" timestamp="1591098048112">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.1.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579401443107" />
-    <state width="1814" height="401" key="GridCell.Tab.1.left" timestamp="1579401443107">
+    <state width="1814" height="401" key="GridCell.Tab.1.center/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1591098048112" />
+    <state width="1814" height="401" key="GridCell.Tab.1.left" timestamp="1591098048112">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.1.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579401443107" />
-    <state width="1814" height="401" key="GridCell.Tab.1.right" timestamp="1579401443108">
+    <state width="1814" height="401" key="GridCell.Tab.1.left/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1591098048112" />
+    <state width="1814" height="401" key="GridCell.Tab.1.right" timestamp="1591098048112">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1814" height="401" key="GridCell.Tab.1.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579401443108" />
-    <state x="492" y="171" key="SettingsEditor" timestamp="1579400608087">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="492" y="171" key="SettingsEditor/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579400608087" />
-    <state x="667" y="271" width="786" height="608" key="find.popup" timestamp="1579173252783">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="667" y="271" width="786" height="608" key="find.popup/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579173252783" />
-    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1579254809787">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1579254809787" />
+    <state width="1814" height="401" key="GridCell.Tab.1.right/-1858.0.1858.1080/62.0.1858.1080@62.0.1858.1080" timestamp="1591098048112" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

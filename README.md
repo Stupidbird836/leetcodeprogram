@@ -37,7 +37,7 @@
 - leetcode.String.ordinary.Reverse 反转整数
 
 #### sort 排序 + search 查找
-- sort.BinarySearch 二分查找
+- search.BinarySearch 二分查找
 - sort.BubbleSort 冒泡排序
 - sort.HeapSort 堆排序：未完成
 - sort.InsertionSort 插入排序
